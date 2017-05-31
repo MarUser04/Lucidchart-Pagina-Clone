@@ -1,0 +1,386 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+main {
+  width: 80%;
+  min-height: 30%;
+  margin: auto;
+  border-right: 1px solid #E0DCDC;
+  border-left: 1px solid #E0DCDC; }
+  main header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-bottom: 1px solid #E0DCDC;
+    height: 18%; }
+    main header div.logo {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      main header div.logo img {
+        padding: 30px;
+        height: 100px;
+        width: 250px; }
+    main header div.menu1 {
+      height: 120px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      margin-right: 10px; }
+      main header div.menu1 div.submenu1-1 {
+        margin-top: 0px;
+        margin-bottom: 25px; }
+        main header div.menu1 div.submenu1-1 ul {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          list-style: none; }
+          main header div.menu1 div.submenu1-1 ul li {
+            margin-right: 20px; }
+            main header div.menu1 div.submenu1-1 ul li:first-child {
+              font-size: 0.9em;
+              margin-top: 8px; }
+            main header div.menu1 div.submenu1-1 ul li:last-child {
+              font-size: 1em;
+              border: 1px solid orange;
+              background: orange;
+              border-bottom-right-radius: 12px;
+              border-bottom-left-radius: 12px;
+              padding-left: 30px;
+              padding-right: 30px;
+              padding-top: 8px;
+              padding-bottom: 5px; }
+              main header div.menu1 div.submenu1-1 ul li:last-child:hover {
+                background: #F99A30; }
+          main header div.menu1 div.submenu1-1 ul a {
+            text-decoration: none; }
+            main header div.menu1 div.submenu1-1 ul a:first-child {
+              color: #999493; }
+              main header div.menu1 div.submenu1-1 ul a:first-child:hover {
+                color: black; }
+          main header div.menu1 div.submenu1-1 ul #login {
+            color: white; }
+            main header div.menu1 div.submenu1-1 ul #login:hover {
+              cursor: pointer; }
+      main header div.menu1 div.submenu1-2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        main header div.menu1 div.submenu1-2 ul {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          list-style: none; }
+          main header div.menu1 div.submenu1-2 ul li {
+            margin-right: 35px;
+            font-size: 1.2em; }
+          main header div.menu1 div.submenu1-2 ul a {
+            text-decoration: none;
+            font-weight: bold;
+            color: black; }
+            main header div.menu1 div.submenu1-2 ul a:hover {
+              color: orange; }
+  main div.principal1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px; }
+    main div.principal1 div.info1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      width: 50%;
+      margin-left: 25px; }
+      main div.principal1 div.info1 h2 {
+        font-size: 2em;
+        color: orange;
+        float: left; }
+      main div.principal1 div.info1 p {
+        font-size: 1.5em;
+        color: #AFADAB;
+        margin-top: 20px;
+        margin-bottom: 40px; }
+      main div.principal1 div.info1 div.botones {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        margin-top: 12px; }
+        main div.principal1 div.info1 div.botones button {
+          background: #3297C2;
+          border: none;
+          border-radius: 20px;
+          margin-right: 20px;
+          padding: 10px 20px;
+          margin-bottom: 25px; }
+          main div.principal1 div.info1 div.botones button a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.6em; }
+            main div.principal1 div.info1 div.botones button a:hover {
+              cursor: pointer; }
+          main div.principal1 div.info1 div.botones button:hover {
+            background: #49AFDB;
+            cursor: pointer; }
+    main div.principal1 div.video1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: relative;
+      width: 50%;
+      margin-bottom: 20px; }
+      main div.principal1 div.video1 img {
+        width: 400px;
+        height: 270px; }
+        main div.principal1 div.video1 img:first-child {
+          border: 1px solid black; }
+      main div.principal1 div.video1 .sobre {
+        position: absolute;
+        top: 36%;
+        left: 42%;
+        width: 100px;
+        height: 90px;
+        opacity: 0.5; }
+        main div.principal1 div.video1 .sobre:hover {
+          width: 150px;
+          height: 120px;
+          cursor: pointer;
+          top: 30%;
+          left: 38%;
+          opacity: 0.9;
+          -webkit-transition: all 0.5s;
+          transition: all 0.5s; }
+
+main.secondMain {
+  width: 80%;
+  min-height: 100vh;
+  margin: auto;
+  border-right: 1px solid #E0DCDC;
+  border-left: 1px solid #E0DCDC;
+  border-top: 1px solid #E0DCDC; }
+  main.secondMain div.video2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid #E0DCDC; }
+    main.secondMain div.video2 iframe {
+      margin-top: 30px;
+      margin-bottom: 30px; }
+  main.secondMain div.info2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    color: #7F8384;
+    padding: 20px;
+    border-bottom: 1px solid #E0DCDC; }
+    main.secondMain div.info2 article {
+      margin-right: 10px; }
+    main.secondMain div.info2 p {
+      margin-top: 10px;
+      font-size: 0.9em; }
+  main.secondMain div.info3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #7F8384; }
+    main.secondMain div.info3 h3 {
+      margin-bottom: 8px; }
+    main.secondMain div.info3 div.sub-info3 {
+      padding: 30px; }
+  main.secondMain div.info4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    main.secondMain div.info4 div.sub-info4-1 {
+      margin-left: 140px; }
+    main.secondMain div.info4 div.sub-info4-1, main.secondMain div.info4 div.sub-info4-2, main.secondMain div.info4 div.sub-info4-3 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      margin-right: 120px; }
+      main.secondMain div.info4 div.sub-info4-1 img, main.secondMain div.info4 div.sub-info4-2 img, main.secondMain div.info4 div.sub-info4-3 img {
+        margin-bottom: 15px; }
+      main.secondMain div.info4 div.sub-info4-1 button, main.secondMain div.info4 div.sub-info4-2 button, main.secondMain div.info4 div.sub-info4-3 button {
+        -ms-flex-item-align: center;
+            align-self: center;
+        width: 105px;
+        margin-top: 10px;
+        background: #3297C2;
+        border: none;
+        border-radius: 20px;
+        padding: 8px 12px;
+        margin-bottom: 20px; }
+        main.secondMain div.info4 div.sub-info4-1 button:hover, main.secondMain div.info4 div.sub-info4-2 button:hover, main.secondMain div.info4 div.sub-info4-3 button:hover {
+          background: #49AFDB;
+          cursor: pointer; }
+        main.secondMain div.info4 div.sub-info4-1 button a, main.secondMain div.info4 div.sub-info4-2 button a, main.secondMain div.info4 div.sub-info4-3 button a {
+          text-decoration: none;
+          color: white; }
+          main.secondMain div.info4 div.sub-info4-1 button a:hover, main.secondMain div.info4 div.sub-info4-2 button a:hover, main.secondMain div.info4 div.sub-info4-3 button a:hover {
+            cursor: pointer; }
+  main.secondMain div.companies {
+    border-top: 1px solid #E0DCDC; }
+    main.secondMain div.companies img {
+      margin-top: 30px;
+      margin-left: 80px;
+      margin-bottom: 20px; }
+
+footer {
+  width: 80%;
+  min-height: 25vh;
+  margin: auto;
+  border-right: 1px solid #E0DCDC;
+  border-left: 1px solid #E0DCDC;
+  background: #8B8F90;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  footer div.enlaces {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 50px; }
+    footer div.enlaces div.enlaces1, footer div.enlaces div.enlaces2, footer div.enlaces div.enlaces3, footer div.enlaces div.enlaces4 {
+      margin-right: 110px; }
+      footer div.enlaces div.enlaces1 ul, footer div.enlaces div.enlaces2 ul, footer div.enlaces div.enlaces3 ul, footer div.enlaces div.enlaces4 ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        list-style: none; }
+        footer div.enlaces div.enlaces1 ul li:first-child, footer div.enlaces div.enlaces2 ul li:first-child, footer div.enlaces div.enlaces3 ul li:first-child, footer div.enlaces div.enlaces4 ul li:first-child {
+          font-size: 1.1em;
+          font-weight: bold; }
+          footer div.enlaces div.enlaces1 ul li:first-child .primero:hover, footer div.enlaces div.enlaces2 ul li:first-child .primero:hover, footer div.enlaces div.enlaces3 ul li:first-child .primero:hover, footer div.enlaces div.enlaces4 ul li:first-child .primero:hover {
+            text-decoration: none;
+            cursor: default; }
+        footer div.enlaces div.enlaces1 ul a, footer div.enlaces div.enlaces2 ul a, footer div.enlaces div.enlaces3 ul a, footer div.enlaces div.enlaces4 ul a {
+          text-decoration: none;
+          color: white;
+          font-size: 0.9em; }
+          footer div.enlaces div.enlaces1 ul a:hover, footer div.enlaces div.enlaces2 ul a:hover, footer div.enlaces div.enlaces3 ul a:hover, footer div.enlaces div.enlaces4 ul a:hover {
+            cursor: pointer;
+            text-decoration: underline; }
+    footer div.enlaces div.enlaces5 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; }
+      footer div.enlaces div.enlaces5 img {
+        height: 30px;
+        width: 30px;
+        margin-right: 8px; }
+  footer div.pie {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 40px; }
+    footer div.pie span {
+      margin-left: 50px;
+      font-size: 0.8em;
+      color: white; }
+    footer div.pie img {
+      width: 25px;
+      height: 30px;
+      margin-right: 60px; }
